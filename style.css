@@ -1,0 +1,29 @@
+.img{
+    width: 5%;
+    height: 10%;
+    object-fit: cover;
+    float: left;
+}
+
+.menu{
+    width: 35px;
+    height: 5px;
+    background: black;
+    margin: 6px 0;
+}
+
+.container:hover{
+   background: white; 
+}
+
+.mainBox{
+
+}
+
+.firstBox{
+
+}
+
+.secondBox{
+
+}
