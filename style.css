@@ -1,29 +1,88 @@
 .img{
-    width: 5%;
-    height: 10%;
-    object-fit: cover;
-    float: left;
+    /* border: solid black; */
+    width: 65px;
+    margin-top: 10px;
+    margin-left: 50px;
+    /* height: 5%;
+    object-fit: cover; */
+    /* float: left; */
+    position: absolute;
 }
 
-.menu{
+/* .menu{
     width: 35px;
     height: 5px;
     background: black;
     margin: 6px 0;
+} */
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background-image: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.42) 61%,rgba(0,0,0,.31) 78%,transparent);
 }
 
-.container:hover{
-   background: white; 
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;   
 }
+
+li{
+    float: left;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+li a{
+    width: 150px;
+    display: block;
+    padding: 25px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Helvetica, sans-serif; 
+}
+
+li a:hover{
+    background-color: burlywood;
+    text-transform: uppercase;
+}
+
+/* .menuBox{
+    background-image: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.42) 61%,rgba(0,0,0,.31) 78%,transparent);
+    display: flex;
+    height: 20%;
+    margin: 12px;
+    justify-content: space-evenly;
+} */
+
+/* .row{
+    height: 90%;
+}
+
+.row:hover{
+    background-color: azure;
+    margin: 24px;
+    text-transform: uppercase;
+} */
+
+/* .containerMenu{
+
+}
+
+.containerMenu:hover{
+   background: blue; 
+} */
 
 .mainBox{
-
+    border: solid black;
+    max-height: 85%;
 }
 
 .firstBox{
-
+    position: absolute;
 }
 
-.secondBox{
+.secondBox, .thirdbox{
 
 }
