@@ -28,6 +28,17 @@ ul{
     list-style: none;   
 }
 
+.arrow{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down{
+    transform: rotate(45deg);
+}
+
 li{
     float: left;
     font-size: 19px;
@@ -38,6 +49,7 @@ li a{
     width: 150px;
     display: block;
     padding: 25px 15px;
+    color: white;
     text-decoration: none;
     text-align: center;
     font-family: Helvetica, sans-serif; 
@@ -79,10 +91,28 @@ li a:hover{
     max-height: 85%;
 }
 
-.firstBox{
-    position: absolute;
+.topBox{
+    /* height: 65%; */
+    justify-content: space-between;
+    border: solid black;
 }
 
-.secondBox, .thirdbox{
+.bottomBox{
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
 
+.leftBox, .rightBox{
+
+    margin: 50px 50px 45px 50px;
+    border: solid black;
+}
+
+.car{    
+    /* width: 50%;
+    height: 50%; */
+    width: auto;
+    height: 720px;
+    object-fit: cover;
 }
