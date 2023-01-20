@@ -93,8 +93,16 @@ li a:hover{
 
 .topBox{
     /* height: 65%; */
-    justify-content: space-between;
+    position: relative;
+    display: flex;
+    justify-content: center;
     border: solid black;
+    align-items: center;
+}
+
+.topCar{
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .bottomBox{
@@ -104,9 +112,8 @@ li a:hover{
 }
 
 .leftBox, .rightBox{
-
     margin: 50px 50px 45px 50px;
-    border: solid black;
+    /* border: solid black; */
 }
 
 .car{    
